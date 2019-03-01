@@ -15,7 +15,7 @@ sql.restrict(client)
 ## Restriction of client.query only allow tagged template literals
 
 ```javascript
-// Throw an error because of the missing sql tag
+// Throws an error because of the missing sql tag
 
 const result = await client.query(`
   SELECT * FROM users WHERE email = ${email} AND passwordhash = ${passwordhash}
