@@ -3,12 +3,10 @@ Restrict `client.query` only handle queries created with the sql tagged template
 # Initialization
 
 ```javascript
-const sql = require('@sharaal/sql-restricted-pg')
-
-sql.restrict(client)
+const sql = require('sql-pg-restrict')(client)
 ```
 
-:warning: It's needed to use everywhere the `sql` tag from the `@sharaal/sql-restricted-pg` package. The one from the normal `@sharaal/sql-pg` won't work for restricted clients.
+:warning: It's needed to use everywhere the `sql` tag from the `sql-pg-restrict` package. The one from the normal `sql-pg` won't work for restricted clients.
 
 # Examples
 
