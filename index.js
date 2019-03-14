@@ -1,6 +1,6 @@
 const sql = require('../sql-pg')
 
-const secret = Symbol('sql-restrict-pg')
+const secret = Symbol('sql-pg-restrict')
 
 module.exports = (textFragments, ...valueFragments) => Object.assign(
   sql(textFragments, ...valueFragments),

@@ -1,9 +1,9 @@
 const assert = require('power-assert')
 const sinon = require('sinon')
 
-const sql = require('../')
+const sqlPgRestrict = require('../')
 
-describe('sql-restrict-pg', () => {
+describe('sql-pg-restrict', () => {
   describe('Restriction of client.query only allow tagged template literals', () => {
     it('should keep the behavior if tagged template literal is used', async () => {
       const expectedRows = [{ id: 5 }]
