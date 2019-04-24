@@ -1,6 +1,6 @@
 {
   "name": "sql-pg-restrict",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Provide a restricted client only handle queries created with the sql tagged template literal.",
   "repository": "sql-pg-restrict",
   "license": "MIT",
