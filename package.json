@@ -13,7 +13,7 @@
     "test": "nyc mocha --require intelli-espower-loader --recursive './test/**/*.spec.js'"
   },
   "dependencies": {
-    "sql-pg": "^1.0.0"
+    "sql-pg": "^1.2.0"
   },
   "devDependencies": {
     "espower-loader": "^1.2.2",

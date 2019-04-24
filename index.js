@@ -1,4 +1,4 @@
-const sql = require('../sql-pg')
+const sql = require('sql-pg')
 
 const secret = Symbol('sql-pg-restrict')
 
