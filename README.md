@@ -1,3 +1,5 @@
+**DEPRECATED: The functionality of these package is now directly integrated in `sql-pg`**
+
 Provide a restricted client only handle queries created with the sql tagged template literal.
 
 # Initialization
